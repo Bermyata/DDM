@@ -1,5 +1,0 @@
-D:\Pro\C Code\DDM\Source\obj\Release\net48\DrawingDataManager.csproj.AssemblyReference.cache
-D:\Pro\C Code\DDM\Source\obj\Release\net48\DrawingDataManager.GeneratedMSBuildEditorConfig.editorconfig
-D:\Pro\C Code\DDM\Source\obj\Release\net48\DrawingDataManager.AssemblyInfoInputs.cache
-D:\Pro\C Code\DDM\Source\obj\Release\net48\DrawingDataManager.AssemblyInfo.cs
-D:\Pro\C Code\DDM\Source\obj\Release\net48\DrawingDataManager.csproj.CoreCompileInputs.cache
