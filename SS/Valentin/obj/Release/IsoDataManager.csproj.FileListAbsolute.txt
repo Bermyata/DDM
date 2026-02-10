@@ -1,0 +1,2 @@
+D:\Pro\C Code\DDM\Source\SS\Valentin\obj\Release\IsoDataManager.csproj.AssemblyReference.cache
+D:\Pro\C Code\DDM\Source\SS\Valentin\obj\Release\IsoDataManager.csproj.CoreCompileInputs.cache
