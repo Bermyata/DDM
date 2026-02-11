@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = DrawingDataManager
-build_property.ProjectDir = d:\Pro\C Code\DDM\Source\
+build_property.ProjectDir = c:\Users\E1173031\OneDrive - nVent Thermal LLC\Desktop\RabotaN\App\C Scripts\DDM\Source\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
