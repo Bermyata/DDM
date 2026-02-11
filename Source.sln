@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SS", "SS", "{60FAFBEC-055F-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Valentin", "Valentin", "{5296A783-CAF4-12B6-D5ED-3B9B0CB49A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoDataManager", "SS\Valentin\IsoDataManager.csproj", "{901B5C47-1541-ECB8-23F9-EA491E4EDDA2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
