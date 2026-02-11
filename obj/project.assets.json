@@ -2,107 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "AutoCAD.NET/24.2.0": {
-        "type": "package",
-        "dependencies": {
-          "AutoCAD.NET.Core": "[24.2.0]"
-        },
-        "compile": {
-          "lib/net47/AcCui.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcDx.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcMr.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcSeamless.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcTcMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcWindows.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdUIMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdUiPalettes.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdWindows.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net47/AcCui.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcDx.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcMr.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcSeamless.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcTcMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AcWindows.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdUIMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdUiPalettes.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/AdWindows.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "AutoCAD.NET.Core/24.2.0": {
-        "type": "package",
-        "dependencies": {
-          "AutoCAD.NET.Model": "[24.2.0]"
-        },
-        "compile": {
-          "lib/net47/AcCoreMgd.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net47/AcCoreMgd.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "AutoCAD.NET.Model/24.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net47/AcDbMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/acdbmgdbrep.dll": {}
-        },
-        "runtime": {
-          "lib/net47/AcDbMgd.dll": {
-            "related": ".xml"
-          },
-          "lib/net47/acdbmgdbrep.dll": {}
-        }
-      },
       "EPPlus/7.1.0": {
         "type": "package",
         "dependencies": {
@@ -257,74 +156,6 @@
     }
   },
   "libraries": {
-    "AutoCAD.NET/24.2.0": {
-      "sha512": "ryTyRSekQhtLEW8JjP7pOM4zbrfzaZm8cJAT8mNzyY/KYM1NZk7N/uf6JxkqY6ZyrB1vPCYtPxBbliUyA8sgCw==",
-      "type": "package",
-      "path": "autocad.net/24.2.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "adsk.xml",
-        "autocad.net.24.2.0.nupkg.sha512",
-        "autocad.net.nuspec",
-        "lib/net47/AcCui.dll",
-        "lib/net47/AcCui.xml",
-        "lib/net47/AcDx.dll",
-        "lib/net47/AcDx.xml",
-        "lib/net47/AcMgd.dll",
-        "lib/net47/AcMgd.xml",
-        "lib/net47/AcMr.dll",
-        "lib/net47/AcMr.xml",
-        "lib/net47/AcSeamless.dll",
-        "lib/net47/AcSeamless.xml",
-        "lib/net47/AcTcMgd.dll",
-        "lib/net47/AcTcMgd.xml",
-        "lib/net47/AcWindows.dll",
-        "lib/net47/AcWindows.xml",
-        "lib/net47/AdUIMgd.dll",
-        "lib/net47/AdUIMgd.xml",
-        "lib/net47/AdUiPalettes.dll",
-        "lib/net47/AdUiPalettes.xml",
-        "lib/net47/AdWindows.dll",
-        "lib/net47/AdWindows.xml",
-        "tools/install.ps1"
-      ]
-    },
-    "AutoCAD.NET.Core/24.2.0": {
-      "sha512": "RY6sKZrul2jANoi51L+9O6t7sB3Zbq4rv9olFBM9oGd1XhVQH0FwTJrpxrfjSrmXv06XwPuQheY1+IOektsRtg==",
-      "type": "package",
-      "path": "autocad.net.core/24.2.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "adsk.xml",
-        "autocad.net.core.24.2.0.nupkg.sha512",
-        "autocad.net.core.nuspec",
-        "lib/net47/AcCoreMgd.dll",
-        "lib/net47/AcCoreMgd.xml",
-        "tools/install.ps1"
-      ]
-    },
-    "AutoCAD.NET.Model/24.2.0": {
-      "sha512": "RsOM46Sly+A6mhqK7CDTuVnnPCRPDVudgllT1x9kcuuFsdLbsJAVpLGY3XuRfjj8wByFqPJ4N2CEc9YI5HsgSA==",
-      "type": "package",
-      "path": "autocad.net.model/24.2.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "adsk.xml",
-        "autocad.net.model.24.2.0.nupkg.sha512",
-        "autocad.net.model.nuspec",
-        "lib/net47/AcDbMgd.dll",
-        "lib/net47/AcDbMgd.xml",
-        "lib/net47/AcDbMgdBrep.xml",
-        "lib/net47/acdbmgdbrep.dll",
-        "tools/install.ps1"
-      ]
-    },
     "EPPlus/7.1.0": {
       "sha512": "WmkQo7fWrDInBtQiNRcnZbJumhZO5wSEQ4Eyv47af6j5cvwCyQA4vy9O4MKSHO/0DBUa8YEu7G15BRM4scZzcg==",
       "type": "package",
@@ -635,38 +466,30 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "AutoCAD.NET >= 24.2.0",
-      "AutoCAD.NET.Core >= 24.2.0",
-      "AutoCAD.NET.Model >= 24.2.0",
       "EPPlus >= 7.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yarik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\E1173031\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj",
+      "projectUniqueName": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj",
       "projectName": "DrawingDataManager",
-      "projectPath": "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj",
-      "packagesPath": "C:\\Users\\yarik\\.nuget\\packages\\",
-      "outputPath": "d:\\Pro\\C Code\\DDM\\Source\\obj\\",
+      "projectPath": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj",
+      "packagesPath": "C:\\Users\\E1173031\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\NuGet.Config",
+        "C:\\Users\\E1173031\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net48"
       ],
       "sources": {
-        "d:\\Pro\\C Code\\DDM\\Source\\packages": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
@@ -684,30 +507,18 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net48": {
         "targetAlias": "net48",
         "dependencies": {
-          "AutoCAD.NET": {
-            "target": "Package",
-            "version": "[24.2.0, )"
-          },
-          "AutoCAD.NET.Core": {
-            "target": "Package",
-            "version": "[24.2.0, )"
-          },
-          "AutoCAD.NET.Model": {
-            "target": "Package",
-            "version": "[24.2.0, )"
-          },
           "EPPlus": {
             "target": "Package",
             "version": "[7.1.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj": {}
+    "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj": {}
   },
   "projects": {
-    "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj": {
+    "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj",
+        "projectUniqueName": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj",
         "projectName": "DrawingDataManager",
-        "projectPath": "d:\\Pro\\C Code\\DDM\\Source\\DrawingDataManager.csproj",
-        "packagesPath": "C:\\Users\\yarik\\.nuget\\packages\\",
-        "outputPath": "d:\\Pro\\C Code\\DDM\\Source\\obj\\",
+        "projectPath": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\DrawingDataManager.csproj",
+        "packagesPath": "C:\\Users\\E1173031\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\E1173031\\OneDrive - nVent Thermal LLC\\Desktop\\RabotaN\\App\\C Scripts\\DDM\\Source\\NuGet.Config",
+          "C:\\Users\\E1173031\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
-          "d:\\Pro\\C Code\\DDM\\Source\\packages": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net48": {
@@ -43,30 +39,18 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
-            "AutoCAD.NET": {
-              "target": "Package",
-              "version": "[24.2.0, )"
-            },
-            "AutoCAD.NET.Core": {
-              "target": "Package",
-              "version": "[24.2.0, )"
-            },
-            "AutoCAD.NET.Model": {
-              "target": "Package",
-              "version": "[24.2.0, )"
-            },
             "EPPlus": {
               "target": "Package",
               "version": "[7.1.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
